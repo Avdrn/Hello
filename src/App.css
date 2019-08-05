@@ -1,33 +1,80 @@
+body {
+  padding: 0px;
+  margin: 0
+}
+
 .App {
-  text-align: center;
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Upper {
+  background: #1F2535;
+  color: aliceblue;
+  padding: 50px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Menu{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Menu span{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px; 
+}
+
+.App-nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-content {
+  text-align: left;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Part-Screen{
+  width: 30%
+}
+
+.App-button {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: #1F2535;
+  font-family: sans-serif;
+  font-weight: bold;  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.Btn {
+  padding: 10px;
+}
+
+.Card-box {
+  display : flex;
+  flex-direction : row;
+  padding: 50px;
+  text-align: left;
+}
+
+.Card-box p {
+  padding: 10px;
 }
